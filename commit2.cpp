@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    for (int i = 0; i < 300000; i++) {
+    for (int i = 0; i < 3000000; i++) {
         ofstream file("commit.txt", ios::app);
         file << "Commit " << i << "\n";
         file.close();
